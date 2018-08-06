@@ -1,4 +1,4 @@
-FROM drecom/ubuntu-ruby:2.2.6
+FROM drecom/ubuntu-ruby:2.5.1
 
 RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
     locale-gen
